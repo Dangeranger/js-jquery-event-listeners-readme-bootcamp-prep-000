@@ -14,3 +14,7 @@ function frameIt() {
   $('img').addClass('tasty')
   return;
 }
+
+function pressIt() {
+  $('input').on('keydown',)
+}
