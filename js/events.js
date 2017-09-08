@@ -11,5 +11,6 @@ function getIt() {
 }
 
 function frameIt() {
+  alert('Image Loaded!')
 
 }
