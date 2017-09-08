@@ -11,6 +11,5 @@ function getIt() {
 }
 
 function frameIt() {
-  alert('Image Loaded!')
-  return;
+  $('img').addClass
 }
