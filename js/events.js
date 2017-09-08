@@ -3,6 +3,7 @@
 $(document).ready(function(){
   getIt()
   frameIt()
+  pressIt()
 });
 
 function getIt() {
@@ -24,5 +25,11 @@ function pressIt() {
     if (e.which === 71) {
       alert("You pressed G!")
     }
+  })
+}
+
+function submitIt() {
+  $('input').on('submit', function () {
+    alert("Your form is going to be submitted now.")
   })
 }
