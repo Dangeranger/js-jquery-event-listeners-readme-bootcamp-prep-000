@@ -1,8 +1,8 @@
 //define functions here
 
 $(document).ready(function(){
-  $('p').on('click', getIt())
-  $('img').on('load', frameIt())
+  getIt()
+  frameIt()
 });
 
 function getIt() {
