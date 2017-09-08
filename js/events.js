@@ -5,6 +5,6 @@ $(document).ready(function(){
 });
 
 function getIt() {
-    alert('Hey!')
-    return;
+  alert('Hey!')
+  return;
 }
