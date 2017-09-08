@@ -21,6 +21,6 @@ function frameIt() {
 
 function pressIt() {
   $('input').on('keydown', function (e) {
-    e.which ===
+    e.which === 71
   })
 }
