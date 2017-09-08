@@ -13,8 +13,10 @@ function getIt() {
 }
 
 function frameIt() {
-  $('img').addClass('tasty')
-  return;
+  $('img').on('load', function() {
+    $('img').addClass('tasty')
+    return;
+  })
 }
 
 function pressIt() {
