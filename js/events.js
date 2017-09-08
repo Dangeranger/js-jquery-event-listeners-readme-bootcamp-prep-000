@@ -6,8 +6,10 @@ $(document).ready(function(){
 });
 
 function getIt() {
-  alert('Hey!')
-  return;
+  $('p').on('click', function() {
+    alert('Hey!')
+    return;
+  })
 }
 
 function frameIt() {
